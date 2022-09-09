@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 from threading import Thread
 from time import sleep
 from motor import Motor
+from cleaner import Cleaner
 import socket
 import numpy as np
 
