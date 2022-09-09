@@ -9,11 +9,11 @@ class Cleaner:
         GPIO.setup(self.en, GPIO.OUT)
 
     def enable(self):
-        GPIO.output(self.en, GPIO.HIGH)
+        GPIO.output(self.en, GPIO.LOW)
         print("Cleaner enabled")
 
     def disable(self):
-        GPIO.output(self.en, GPIO.LOW)
+        GPIO.output(self.en, GPIO.HIGH)
         print("Cleaner disabled")
 
 if __name__ == '__main__':
